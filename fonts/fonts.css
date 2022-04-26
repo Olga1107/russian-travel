@@ -3,11 +3,3 @@
          url(./Inter-Web/Inter-Regular.woff2) format('woff2');
     font-family: 'Inter';
 } 
-
-/*@font-face {
-    src: url(./Inter-Web/Inter-Black.woff) format('woff'),
-         url(./Inter-Web/Inter-Black.woff2) format('woff2');
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-}*/

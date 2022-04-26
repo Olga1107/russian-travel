@@ -1,0 +1,9 @@
+.lead {
+    position: relative;
+    border: 1px solid red;
+    width: 984px;
+    height: 1005px;
+    display: flex;
+    flex-direction: column;
+    margin: 56px 148px 92px 148px;
+}
