@@ -1,0 +1,8 @@
+.header__lang-link {
+    color: #FFFFFF;
+    position: absolute;
+    display: flex;
+    top: 18px;
+    right: 0;
+    bottom: 6px;
+}
