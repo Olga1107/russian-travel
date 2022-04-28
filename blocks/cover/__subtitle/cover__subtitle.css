@@ -3,10 +3,18 @@
     padding: 0;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     text-align: center;
-    width: 360px;
-    height: 66px;
-    position: absolute;
-    margin: 429px 412px 245px 412px;
+    max-width: 360px;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 114%;
+        margin-top: 16px;
+        max-width: 288px; 
+        max-height: 48px;
+    }
 }

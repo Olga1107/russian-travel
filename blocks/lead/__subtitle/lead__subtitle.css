@@ -3,7 +3,16 @@
     margin: 0;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 120%;
     text-align: center;
-    margin: 32px 172px 64px 172px;
+    margin: 3% auto 7% auto;
+    width: 640px;
 }
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 125%;
+        width: 288px;
+    }
+} 

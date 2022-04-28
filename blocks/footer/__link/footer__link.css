@@ -5,15 +5,26 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 112%;
     font-weight: 400;
     margin-left: 18px;
 }
 
 .footer__link:hover {
     opacity: .8;
+    transition: opacity .4s ease-in-out;
 }
 
 .footer__link:nth-child(1) {
     margin-left: 0;
+} 
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+    
+    margin: 0;
+    font-size: 24px;
+    line-height: 100%;
+
+    } 
 }
