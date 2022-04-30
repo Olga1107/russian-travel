@@ -1,6 +1,8 @@
 .header__lang-link_selected {
+    position: relative;
     padding: 0;
     margin: 0;
+    top: 0;
     text-decoration-line: underline;
     text-align: right;
     font-weight: 400;
