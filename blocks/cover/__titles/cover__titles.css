@@ -1,7 +1,0 @@
-.cover__titles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
-}

@@ -1,14 +1,6 @@
 .header {
     width: 92%;
-    height: 52px;
     margin: 4% auto 0 auto;
     display: flex;
-    position: relative;
-    justify-items: center;
-}
-
-@media screen and (max-width: 320px) {
-    .header {
-        height: 42px;
-    }
+    justify-content: space-between;
 }

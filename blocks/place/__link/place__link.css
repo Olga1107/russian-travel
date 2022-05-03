@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 400;
@@ -10,7 +10,7 @@
     grid-area: link;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: .8;
     transition: opacity .4s ease-in-out;
 } 
